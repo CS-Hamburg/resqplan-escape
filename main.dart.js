@@ -88246,11 +88246,10 @@ this.a.toString},
 L(a){var s,r,q,p=this,o=null,n=p.d,m=n?B.Gm:B.Gn
 m=A.OM(A.im(o,o,o,A.il(m,n?B.d_:B.l,o,30),o,o,o,new A.asA(p),o,o,o,o),!1,o,"Brandbereiche anzeigen/ausblenden",B.ih)
 n=A.OM(A.im(o,o,o,A.il(B.Gt,p.e?B.d_:B.l,o,30),o,o,o,new A.asB(p),o,o,o,o),!1,o,"Ger\xe4te anzeigen/ausblenden",B.ih)
-s=p.a
-s.toString
-r=A.OM(A.im(o,o,o,A.il(B.Gs,p.f?B.d_:B.l,o,30),o,o,o,new A.asC(p),o,o,o,o),!1,o,"Tooltips anzeigen",B.ih)
-q=s.r
-return A.f_(A.c([m,n,r,B.Qz,new A.bz(20,200,new A.N6(-1,new A.Bx(q,new A.asD(p),s.w,s.x,"Zoom: "+B.d.aO(q*100)+"%",B.Ep,o),o),o)],t.p),B.S,B.an,B.av,0)}}
+s=A.OM(A.im(o,o,o,A.il(B.Gs,p.f?B.d_:B.l,o,30),o,o,o,new A.asC(p),o,o,o,o),!1,o,"Tooltips anzeigen",B.ih)
+r=p.a
+q=r.r
+return A.f_(A.c([m,n,s,B.Qz,new A.bz(20,200,new A.N6(-1,new A.Bx(q,new A.asD(p),r.w,r.x,"Zoom: "+B.d.aO(q*100)+"%",B.Ep,o),o),o)],t.p),B.S,B.an,B.av,0)}}
 A.asA.prototype={
 $0(){var s=this.a
 s.X(new A.asz(s))
