@@ -88454,7 +88454,9 @@ l=A.iz(j,new A.y8(o,n,new A.al5(k),k.go,m,l,j),j,j,j,10,80,j)
 o=l}else o=new A.bw(j,j,j,j)
 p.push(o)
 o=k.fy
-p.push(o!=null&&o.b!=="Default"?A.iz(j,A.uE(A.a2t(A.cY("Clone default",j,j,j,j,j,j),new A.al6(k)),!0,j,"Clone default escape solution",j),j,j,10,j,5,j):new A.bw(j,j,j,j))
+if(o!=null){o=o.b
+o=o!=="Default"&&o!=="Template"}else o=!1
+p.push(o?A.iz(j,A.uE(A.a2t(A.cY("Clone default",j,j,j,j,j,j),new A.al6(k)),!0,j,"Clone default escape solution",j),j,j,10,j,5,j):new A.bw(j,j,j,j))
 o=k.fy
 if(o!=null){o=o.b
 o=o!=="Default"&&o!=="Template"}else o=!1
